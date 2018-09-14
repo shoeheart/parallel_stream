@@ -14,7 +14,7 @@ defmodule ParallelStream.Mixfile do
         source_url: "https://github.com/beatrichartz/parallel_stream",
         description: "Parallel stream operations for Elixir",
         test_coverage: [tool: ExCoveralls],
-        preferred_cli_env: ["coveralls": :test, "coveralls.detail": :test, "coveralls.post": :test]
+        preferred_cli_env: [coveralls: :test, "coveralls.detail": :test, "coveralls.post": :test]
     ]
   end
 
